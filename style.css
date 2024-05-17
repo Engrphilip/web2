@@ -1,0 +1,223 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+font-size: 16px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h1{
+    color: brown;
+}
+.heading{
+    color: rgb(40, 185, 21);
+}
+#menu{
+    background-color: blue;
+    width: auto;
+    height: 120px;
+    color: #fff;
+    padding: 20px;
+    text-align: right;
+    border-radius: 5px;
+    margin-bottom: 3px;
+    border-color: rgb(97, 13, 13);
+    border-style: groove;
+    border-width: 5pxpx;
+}
+@media (min-width:600px) {
+#menu a {
+    display: none;
+}
+
+}
+
+#Hero{
+    background-color: rgb(43, 6, 77);
+    height: 600px;
+    width: auto;
+    margin-top: 5px
+    padding-top : 100px;
+    border-color :red;
+    border-width : 5px;
+    border-style : groove;
+    border-radius:20px
+    
+
+}
+form{
+    background-color: rgba(3, 3, 31, 0.61);
+    margin-top: 30px;
+    margin-left: 30px;
+    color: rgb(57, 57, 180)
+}
+form textarea{
+    border-color: rgb(43, 3, 3);
+    border-width: 5px;
+    border-style: groove;
+    border-radius: 10px;
+    color: red;
+    margin-left: 30px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+body{
+    background-color: rgba(7, 7, 73, 0.726);
+    color: #fff;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+select {
+    margin-left: 30px;
+    color: red;
+}
+input {
+    margin-left: 30px;
+    color: red;
+    margin-bottom: 20px;
+}
+form h2{
+    color: red;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+form h3 {
+    color: red;
+    padding-left: 20px;
+}
+form h4{
+    color: red;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+#hero{
+    display: flex;
+}
+
+#Hero h1{
+  color: #fff; 
+  font-size: 60px; 
+  margin-top: 40px;
+  margin-left: 30px;
+}
+#Hero p{
+    color: #fff;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-left: 80px;
+}
+#menu a{
+   text-decoration: none;
+   color: #fff;
+   font-weight: 600;
+   background-color: rgb(4, 4, 29);
+   padding: 10px 30px;
+   border-radius: 5px;
+   display: inline-block;
+   border-color: rgb(138, 16, 16);
+   border-width: 4px;
+   border-style: groove;
+   
+}
+#menu a:hover{
+     background-color: rgb(49, 49, 153); 
+}
+#Hero a:hover{
+    background-color:;
+    background-color: rgb(71, 71, 228);
+}
+#courses{
+    margin-top: 30px;
+}
+#courses h1{
+    text-align: center;
+    color: rgb(2, 2, 20);
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+#courses img{
+    height: 200px;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-color: rgb(51, 4, 4);
+    border-width: 5px;
+    border-style: groove;
+}
+
+#boxes {
+    background-color: rgb(21, 21, 68);
+    width: auto;
+    height: 300px;
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 40px;
+    border-radius: 10px;
+    border-color: rgb(83, 9, 9);
+    border-width: 4px;
+    border-style: groove;
+}
+#boxes h1{
+    color: #fff;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#boxes p{
+    color: rgba(131, 14, 14, 0.904);
+    font-size: 16PX;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 5PX;
+}
+#boxes h3{
+    width: auto;
+    height: 50px;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    display: inline-block;
+    padding-top: 10px;
+    margin-top: 10px;
+    
+}
+
+#boxes h3:hover{
+    color: rgb(49, 7, 7)
+}
+#rate {
+    display: flex;
+
+}
+#items{
+    margin: 20px;
+    background-color: rgb(4, 4, 39);
+    border: rgb(105, 10, 10);
+    border-width: 4px;
+    border-style: groove;
+    border-radius: 5px;
+    width: 320px;
+    height: 320px;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 20px;
+    letter-spacing: 1px;
+    
+}
+#logo{
+   text-align: left; 
+   font-size: medium;
+   font-weight: bold;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#logo :hover{
+    color: rgb(31, 7, 75);
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-top: 10px;
+}
